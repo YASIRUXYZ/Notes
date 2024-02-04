@@ -1,7 +1,7 @@
-**Install Flux v2 on kubernetes**
+***Install Flux v2 on kubernetes***
 
 > [!note]  
-> Install Flux v2 on kubernetes control plane 
+> Install Flux v2 on kubernetes control plane ↓
 
 1. go to [Flux_V2](https://github.com/fluxcd/flux2/releases/) release page
 2. copy [flux_2.2.2_linux_amd64.tar.gz](https://github.com/fluxcd/flux2/releases/download/v2.2.2/flux_2.2.2_linux_amd64.tar.gz) link
@@ -20,4 +20,4 @@ flux check --pre
 ```
 
 > [!note]  
-> Install Flux v2 on kubernetes cluster
+> Install Flux v2 on kubernetes cluster ↓

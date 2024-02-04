@@ -1,4 +1,4 @@
-> [!warning]  
+> [!CAUTION]  
 > flux 127.0.0.1:8080: connect: connection refused
 
 1. give kubernetes access to flux ↓

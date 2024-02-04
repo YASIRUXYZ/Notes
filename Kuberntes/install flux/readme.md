@@ -1,4 +1,4 @@
-> ` Install Flux v2 on kubernetes cluster `
+> **Install Flux v2 on kubernetes cluster**
 
 ```diff
 ! my system requirements

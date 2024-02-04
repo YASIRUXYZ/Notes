@@ -1,4 +1,4 @@
-### **` Install Flux v2 on kubernetes **
+### ` Install Flux v2 on kubernetes ✅`
 
 > [!note]  
 > Install Flux v2 on kubernetes control plane : ↓↓↓

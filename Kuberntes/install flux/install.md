@@ -112,6 +112,9 @@ data:
               ║         ╠═════ gotk-components.yaml (auto)
               ║         ╠═════ gotk-sync.yaml       (auto)
               ║         ╚═════ kustomization.yaml   (auto)
+              ╠══════ main-system
+              ║         ╠═════ automation.yaml
+              ║         ╚═════ secret.yaml
               ╠══════ app-name-1
               ║         ╠═════ deployment.yaml
               ║         ╠═════ image-policy.yaml

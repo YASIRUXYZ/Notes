@@ -1,4 +1,4 @@
-> [!info]  
+> [!note]  
 > ## Deploy kubernetes deployment using flux: ↓↓↓
 > 
 > 1. Add basic deployment yaml

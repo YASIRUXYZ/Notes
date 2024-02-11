@@ -39,7 +39,7 @@
 > echo -n  `{"auths":{"ghcr.io":{"auth":`<GITHUB_PACKAGE_VIEW_STRING>`}}}` | base64
 > ```
 
-> [note]
+> [!note]
 > 2. Add **` secret.yaml `** to ` main system ` for get access
 > #Before use command change this values in the command
 > ```yaml
@@ -59,7 +59,7 @@
 >   .dockerconfigjson: <IMAGE_LIST_LOGIN>
 > ```
 >
-> 3. make new git repo flie structure like this
+> 3. Make new git repo flie structure like this
 ```diff
  ══ cluster ══ home ══ flux-system
                ║         ╠═════ gotk-components.yaml

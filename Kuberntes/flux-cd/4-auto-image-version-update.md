@@ -1,4 +1,4 @@
-> [!info]  
+> [!note]  
 > # Update Image Verison In Kubernetes Deployment Using Flux: ↓↓↓
 >
 > 1. Add ` image-registry.yaml ` To Uour App Folder
@@ -50,7 +50,7 @@
 > <IMAGE_NAME> : docker image name (you can use ghcr.io)
 > <SET_IMAGEPOLICY_NAME> : before you crated image policy name
 > ```
-> ### {"$imagepolicy": "flux-system:<SET_IMAGEPOLICY_NAME>"}
+> #### {"$imagepolicy": "flux-system:<SET_IMAGEPOLICY_NAME>"}
 > ```md
 > containers:
 >     - name: CONTAINER NAME

@@ -57,8 +57,9 @@
 >       image: <IMAGE_NAME>:<ADD_CUSTOM_VERSION> # {"$imagepolicy": "flux-system:<SET_IMAGEPOLICY_NAME>"}
 >       imagePullPolicy: Always
 > ```
->
-> 4. Make new git repo flie structure like this
+
+> [!tip]
+> Make new git repo flie structure like this
 ```diff
  ══ cluster ══ home ══ flux-system
                ║         ╠═════ gotk-components.yaml

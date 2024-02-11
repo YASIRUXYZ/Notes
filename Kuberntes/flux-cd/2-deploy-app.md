@@ -5,7 +5,9 @@
 > ```
 > add your own deployment
 > ```
-> 2. Create git repo flie structure like this 
+
+> [!tip]
+> Create git repo flie structure like this 
  ```diff
   ══ cluster ══ home ══ flux-system
                 ║         ╠═════ gotk-components.yaml

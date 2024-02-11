@@ -58,8 +58,9 @@
 > data:
 >   .dockerconfigjson: <IMAGE_LIST_LOGIN>
 > ```
->
-> 3. Make new git repo flie structure like this
+
+> [!tip]
+> Make new git repo flie structure like this
 ```diff
  ══ cluster ══ home ══ flux-system
                ║         ╠═════ gotk-components.yaml

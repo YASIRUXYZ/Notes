@@ -16,6 +16,6 @@ Architecter    : Arm
 3-setup-automation : setup flux automation
 4-auto-image-version-update : update deployment version using flux
 
-!fixes : !
+!fixes : ↓
 errors/401-error : localhost-8080 unauthorized error
 ```

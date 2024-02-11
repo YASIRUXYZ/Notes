@@ -49,9 +49,10 @@
 
 > [!tip]
 > check git repository file structure like this
->```diff
-> ══ cluster ══ home ══ flux-system
->+                        ╠═════ gotk-components.yaml (auto)
->+                        ╠═════ gotk-sync.yaml       (auto)
->+                        ╚═════ kustomization.yaml   (auto)
->``` 
+```diff
+ ══ cluster ══ home ══ flux-system
++                        ╠═════ gotk-components.yaml (auto)
++                        ╠═════ gotk-sync.yaml       (auto)
++                        ╚═════ kustomization.yaml   (auto)
+```
+> adads

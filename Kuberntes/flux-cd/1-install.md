@@ -55,4 +55,3 @@
 +                        ╠═════ gotk-sync.yaml       (auto)
 +                        ╚═════ kustomization.yaml   (auto)
 ```
-> adads

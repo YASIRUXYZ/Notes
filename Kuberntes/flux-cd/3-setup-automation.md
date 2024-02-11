@@ -27,18 +27,20 @@
 >    path: ./clusters/home
 >    strategy: Setters
 >```
->> [!tip]
->> ### how make docker login data string
->> 1)  Make **` github package view access string `**
->> ```md
->> echo -n "<GITHUB_USERNAME>:<PAT_TOKEN_VIEW_IMAGE>" | base64
->> ```
->> 2) Make **` docker login data string `** using ` github package view access string `
->> ```md
->> echo -n  `{"auths":{"ghcr.io":{"auth":`<GITHUB_PACKAGE_VIEW_STRING>`}}}` | base64
->> ```
->
->2. add **` secret.yaml `** to ` main system ` for get access
+
+> [!tip]
+> ### how make docker login data string
+> 1) Make **` github package view access string `**
+> ```md
+> echo -n "<GITHUB_USERNAME>:<PAT_TOKEN_VIEW_IMAGE>" | base64
+> ```
+> 2) Make **` docker login data string `** using ` github package view access string `
+> ```md
+> echo -n  `{"auths":{"ghcr.io":{"auth":`<GITHUB_PACKAGE_VIEW_STRING>`}}}` | base64
+> ```
+
+> [note]
+>2. Add **` secret.yaml `** to ` main system ` for get access
 >#Before use command change this values in the command
 >```yaml
 ><DOCKER_ACCESS_NAME> : make secrete name for access docker images later
@@ -57,7 +59,7 @@
 >  .dockerconfigjson: <IMAGE_LIST_LOGIN>
 >```
 >
->1. make new git repo flie structure like this
+>3. make new git repo flie structure like this
 ```diff
  ══ cluster ══ home ══ flux-system
                ║         ╠═════ gotk-components.yaml
